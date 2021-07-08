@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'
+        integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=='
+        crossorigin='anonymous' />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css'
         integrity='sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA=='
         crossorigin='anonymous' />
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Boolean Snacks</title>
 </head>
 
@@ -55,8 +59,30 @@
         </div>
     </header>
     <main>
-
+        <div class="container-md">
+            <div class="row">
+                <div class="col-6 text-end">
+                    <div id="first-array"></div>
+                </div>
+                <div class="col-6">
+                    <div id="second-array"></div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <button id="start-button" class="btn rounded-pill bg-grey p-5 my-4">
+                        Riempi l'array più piccolo
+                    </button>
+                </div>
+                <div class="col-12">
+                    <button id="reset-button" class="btn rounded-pill bg-grey p-5 mb-4">
+                        Reset
+                    </button>
+                </div>
+            </div>
+        </div>
     </main>
+    <script src="./js/fill_the_array.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
