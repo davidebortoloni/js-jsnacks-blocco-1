@@ -17,8 +17,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Boolean Snacks - First Snack</title>
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Boolean Snacks - Sixth Snack</title>
   </head>
 
   <body>
@@ -33,12 +33,12 @@
           <div class="col-auto">
             <div id="menu-desktop" class="d-none d-xl-block">
               <ul>
-                <li class="active"><a href="#">5um_10_numb3r5</a></li>
+                <li><a href="./snack1.html">5um_10_numb3r5</a></li>
                 <li><a href="./snack2.html">3v3n_numb3r5</a></li>
                 <li><a href="./snack3.html">f4l53_1nv1t3d</a></li>
                 <li><a href="./snack4.html">f1ll_th3_4rr4y</a></li>
                 <li><a href="./snack5.html">b4ll_0bj3ct</a></li>
-                <li><a href="./snack6.html">t34m_r4nk1ng</a></li>
+                <li class="active"><a href="#">t34m_r4nk1ng</a></li>
               </ul>
             </div>
             <div class="d-xl-none">
@@ -48,8 +48,8 @@
               </div>
               <div id="menu-mobile" class="invisible">
                 <ul>
-                  <li class="active">
-                    <a href="#">5um_10_numb3r5</a>
+                  <li>
+                    <a href="./snack1.html">5um_10_numb3r5</a>
                     <hr />
                   </li>
                   <li>
@@ -68,8 +68,8 @@
                     <a href="./snack5.html">b4ll_0bj3ct</a>
                     <hr />
                   </li>
-                  <li>
-                    <a href="./snack6.html">t34m_r4nk1ng</a>
+                  <li class="active">
+                    <a href="#">t34m_r4nk1ng</a>
                   </li>
                 </ul>
               </div>
@@ -82,21 +82,19 @@
       <div class="container-md">
         <div class="row text-center g-5">
           <div class="col-12">
-            <button id="first-sum" class="btn rounded-pill bg-grey p-5 mb-4">
-              Avvia prima somma<br />Ciclo FOR
-            </button>
-            <div id="first-result"></div>
-          </div>
-          <div class="col-12">
-            <button id="second-sum" class="btn rounded-pill bg-grey p-5 mb-4">
-              Avvia seconda somma<br />Ciclo WHILE
-            </button>
-            <div id="second-result"></div>
+            <table class="d-inline">
+              <thead>
+                <th>Nome</th>
+                <th>Città</th>
+                <th>Punti</th>
+              </thead>
+              <tbody id="result"></tbody>
+            </table>
           </div>
         </div>
       </div>
     </main>
-    <script src="./js/sum_10_numbers.js"></script>
+    <script src="./js/team_ranking.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

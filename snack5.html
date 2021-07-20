@@ -17,8 +17,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Boolean Snacks - First Snack</title>
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Boolean Snacks - Fifth Snack</title>
   </head>
 
   <body>
@@ -33,11 +33,11 @@
           <div class="col-auto">
             <div id="menu-desktop" class="d-none d-xl-block">
               <ul>
-                <li class="active"><a href="#">5um_10_numb3r5</a></li>
+                <li><a href="./snack1.html">5um_10_numb3r5</a></li>
                 <li><a href="./snack2.html">3v3n_numb3r5</a></li>
                 <li><a href="./snack3.html">f4l53_1nv1t3d</a></li>
                 <li><a href="./snack4.html">f1ll_th3_4rr4y</a></li>
-                <li><a href="./snack5.html">b4ll_0bj3ct</a></li>
+                <li class="active"><a href="#">b4ll_0bj3ct</a></li>
                 <li><a href="./snack6.html">t34m_r4nk1ng</a></li>
               </ul>
             </div>
@@ -48,8 +48,8 @@
               </div>
               <div id="menu-mobile" class="invisible">
                 <ul>
-                  <li class="active">
-                    <a href="#">5um_10_numb3r5</a>
+                  <li>
+                    <a href="./snack1.html">5um_10_numb3r5</a>
                     <hr />
                   </li>
                   <li>
@@ -64,8 +64,8 @@
                     <a href="./snack4.html">f1ll_th3_4rr4y</a>
                     <hr />
                   </li>
-                  <li>
-                    <a href="./snack5.html">b4ll_0bj3ct</a>
+                  <li class="active">
+                    <a href="#">b4ll_0bj3ct</a>
                     <hr />
                   </li>
                   <li>
@@ -82,21 +82,25 @@
       <div class="container-md">
         <div class="row text-center g-5">
           <div class="col-12">
-            <button id="first-sum" class="btn rounded-pill bg-grey p-5 mb-4">
-              Avvia prima somma<br />Ciclo FOR
-            </button>
-            <div id="first-result"></div>
+            <div id="result"></div>
           </div>
           <div class="col-12">
-            <button id="second-sum" class="btn rounded-pill bg-grey p-5 mb-4">
-              Avvia seconda somma<br />Ciclo WHILE
+            <button id="change-name" class="btn btn-dark">Modifica nome</button>
+            <button id="change-weight" class="btn btn-dark">
+              Modifica peso
             </button>
-            <div id="second-result"></div>
+            <input type="text" id="new-name" class="d-none" />
+            <button id="confirm-name" class="d-none btn btn-dark">
+              Conferma
+            </button>
+            <button id="confirm-weight" class="d-none btn btn-dark">
+              Conferma
+            </button>
           </div>
         </div>
       </div>
     </main>
-    <script src="./js/sum_10_numbers.js"></script>
+    <script src="./js/ball_object.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
